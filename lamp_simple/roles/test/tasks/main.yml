@@ -1,0 +1,5 @@
+---
+# This playbook contains common plays that will be run on all nodes.
+
+- name: test mkdir
+  command: touch /tmp/test2.log

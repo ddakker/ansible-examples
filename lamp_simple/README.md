@@ -25,3 +25,10 @@ command:
 Once done, you can check the results by browsing to http://localhost/index.php.
 You should see a simple test page and a list of databases retrieved from the
 database server.
+
+
+간단 셈플
+
+        ## -k, --ask-pass 비밀번호 입력을 요구
+        $ ansible-playbook -i hosts site.yml -k
+        SSH password: ****
