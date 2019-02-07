@@ -32,3 +32,6 @@ database server.
         ## -k, --ask-pass 비밀번호 입력을 요구
         $ ansible-playbook -i hosts site.yml -k
         SSH password: ****
+        
+        ## 비번과 
+        $ ansible-playbook -i hosts site.yml -e ansible_ssh_pass=비번
